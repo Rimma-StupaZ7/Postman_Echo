@@ -9,7 +9,7 @@ public class PostManTestPost {
     void QueryPostData(){
         given()
                 .baseUri("https://postman-echo.com")
-                .body("data") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("John") // отправляемые данные (заголовки и query можно выставлять аналогично)
 // Выполняемые действия
                 .when()
                 .post("/post")
